@@ -1,5 +1,5 @@
 # Specify a base image
-FROM node:14.5.0 as build-deps
+FROM node:14.16.0
 
 # Create working directory and copy the app before running yarn install as the artifactory
 # credentials can be inside .npmrc

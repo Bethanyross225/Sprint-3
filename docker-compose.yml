@@ -12,7 +12,7 @@ services:
 
   spring-app-starter:
     build:
-      context: ./backend
+      context: ../lbg-car-spring-app-starter
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
@@ -25,7 +25,7 @@ services:
 
   car-react-starter:
     build:
-      context: ./frontend
+      context: ../lbg-car-react-starter
       dockerfile: Dockerfile
     ports:
       - "3000:80"

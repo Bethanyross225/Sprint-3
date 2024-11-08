@@ -25,3 +25,4 @@ EXPOSE 8000
 
 # Command to run the application
 CMD ["java", "-jar", "app.jar"]
+
